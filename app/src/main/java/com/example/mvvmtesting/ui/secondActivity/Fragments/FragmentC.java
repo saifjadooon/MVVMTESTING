@@ -32,7 +32,7 @@ public class FragmentC extends Fragment {
                 container,
                 false
         );
-        // Inflate the layout for this fragment
+        /*This is jst a test*/
         return fragmentCBinding.getRoot();
     }
 

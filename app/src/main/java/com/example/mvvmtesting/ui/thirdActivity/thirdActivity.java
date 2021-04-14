@@ -23,8 +23,4 @@ public class thirdActivity extends AppCompatActivity {
 
         thirdActivitySharedViewModel = ViewModelProviders.of(thirdActivity.this).get(thirdActivitySharedViewModel.class);
     }
-
-
-
-
 }

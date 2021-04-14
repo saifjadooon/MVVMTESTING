@@ -5,7 +5,7 @@ public abstract class ThirdActivityOutputEvents {
     public static class NotifyUser extends ThirdActivityOutputEvents {
         private String Hmessage;
 
-        public NotifyUser(String msg) {
+        public void NotifyUser(String msg) {
 
             Hmessage = msg;
         }

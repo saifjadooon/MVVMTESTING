@@ -12,20 +12,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MvvmTesting">
-        <activity android:name=".ui.thirdActivity.thirdActivity">
-
+        <activity android:name=".ui.fifthActivity.FifthActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.secondActivity.secondActivity" >
+        <activity android:name=".ui.fourthActivity.fourthActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".ui.main.MainActivity">
-
-        </activity>
+        <activity android:name=".ui.thirdActivity.thirdActivity"></activity>
+        <activity android:name=".ui.secondActivity.secondActivity" />
+        <activity android:name=".ui.main.MainActivity" />
     </application>
 
 </manifest>

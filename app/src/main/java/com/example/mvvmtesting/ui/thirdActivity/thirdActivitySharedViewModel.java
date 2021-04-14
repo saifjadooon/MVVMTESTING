@@ -36,7 +36,8 @@ public class thirdActivitySharedViewModel extends AndroidViewModel {
 
             Timber.d("Error info recived, %s" , events.gethText());
 
-            ThirdActivityOutputEvents.NotifyUser notifyUser = new ThirdActivityOutputEvents.NotifyUser(events.gethText());
+            ThirdActivityOutputEvents.NotifyUser notifyUser = new ThirdActivityOutputEvents.NotifyUser();
+            notifyUser.NotifyUser(events.gethText());
 
             thirdActivityOutputEventsMutableLiveData.postValue(notifyUser);
 
